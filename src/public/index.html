@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>MAIL-NODEJS</title>
+</head>
+<body>
+    <div class="header">
+        <h5 class="orange-text">mod 1 => form POST</h5>
+        <h5 class="orange-text">mod 2 => url GET => /send-email_get/correo@gmail.com</h5>
+    </div>
+<h5 style="text-align: center;">MOD 1</h5>
+    <form action="/send-email" method="POST">
+        <h6 >template 1</h6>
+        <input class="pink-text" type="text" name="email" placeholder="correo">
+    <button class="btn">enviar</button>
+    </form>
+
+    <form action="/send-email2" method="POST" style="margin-top: 50px;">
+        <h6 >template 2</h6>
+        <input class="pink-text" type="text" name="email" placeholder="correo">
+    <button class="btn">enviar</button>
+    </form>
+</body>
+</html>

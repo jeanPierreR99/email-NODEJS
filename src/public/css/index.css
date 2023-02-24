@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
