@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended: false}));
 
 app.use(express.json());
 
-app.use(require('./router/router.js'));
+app.use(require('./src/router/router.js'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
